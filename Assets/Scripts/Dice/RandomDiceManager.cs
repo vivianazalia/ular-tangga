@@ -13,6 +13,6 @@ public class RandomDiceManager : MonoBehaviour
     {
         int rand = Random.Range(1, 6);
         _diceText.SetText($"{rand}");
-        PlayerController.OnPlayerMove?.Invoke(rand);
+        PlayerController.OnPlayerMoveUp?.Invoke(rand);
     }
 }

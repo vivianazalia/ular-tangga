@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e3e2f19bd4000245a7956463ea28b55, type: 3}
+  m_Name: Spesial 4
+  m_EditorClassIdentifier: 
+  question: 'Ayah membeli 10 sak semen, 100 bata pres dan 12 batang kayu, sudah dipergunakan
+    untuk membangun rumah 2 sak semen, 50 bata pres dan 5 batang kayu, karena diperkirakan
+    kurang, ayah membeli lagi 4 sak semen, 20 bata pres dan 7 batang kayu. Berapa
+    jumlah bahan bangunan sekarang? (Dengan permisalan : sak semen = a, bata pres
+    = b dan batang kayu = c)'
+  answer: 12a + 70b + 14c
