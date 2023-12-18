@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90ad2381599e1db4d956e1ecade360dc, type: 3}
   m_Name: 15
   m_EditorClassIdentifier: 
-  type: 0
-  sprite: {fileID: 0}
-  card: {fileID: 0}
+  type: 1
+  sprite: {fileID: 21300000, guid: 2db61aae69926284c80f394d573e9296, type: 3}
+  card: {fileID: 11400000, guid: 0230c61df1256c64183052046c16d28c, type: 2}
   tileDestination: 0

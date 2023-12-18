@@ -28,7 +28,7 @@ public class MateriManager : MonoBehaviour
     public void OnClickLeftArrow()
     {
         index--;
-        if (index > 0)
+        if (index >= 0)
         {
             _materiImage.sprite = _materiList[index];
         }

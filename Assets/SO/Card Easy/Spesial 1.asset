@@ -13,4 +13,10 @@ MonoBehaviour:
   m_Name: Spesial 1
   m_EditorClassIdentifier: 
   question: Tentukan hasil dari (7x - 5y) - (4x - 3y)
-  answer: 3x - 2y
+  answers:
+  - 3x - 2y
+  - 3 x - 2 y
+  - 3x-2y
+  - '- 2y + 3y'
+  - -2y+3y
+  - '- 2 y + 3 y'

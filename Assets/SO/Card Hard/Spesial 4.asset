@@ -17,4 +17,10 @@ MonoBehaviour:
     kurang, ayah membeli lagi 4 sak semen, 20 bata pres dan 7 batang kayu. Berapa
     jumlah bahan bangunan sekarang? (Dengan permisalan : sak semen = a, bata pres
     = b dan batang kayu = c)'
-  answer: 12a + 70b + 14c
+  answers:
+  - 12a + 70b + 14c
+  - 12a + 14c + 70b
+  - 70b + 12a + 14c
+  - 70b + 14c + 12a
+  - '14c + 12a + 70b '
+  - '14c + 70b + 12a '

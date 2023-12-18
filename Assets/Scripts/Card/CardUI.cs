@@ -16,7 +16,7 @@ public class CardUI : MonoBehaviour
     [SerializeField]
     private TMP_Text _answerValidation;
 
-    private string _answer;
+    private string[] _answers;
 
     public static UnityAction<CardSO> OnSetDataCard;
 
@@ -37,19 +37,21 @@ public class CardUI : MonoBehaviour
     {
         transform.localScale = Vector3.one;
         _questionText.SetText($"{data.question}");
-        _answer = data.answer;
+        _answers = data.answers;
     }
 
     private void OnClickConfirmButton()
     {
-        if(_answerInput.text == _answer)
+        foreach(var answer in _answers)
         {
-            StartCoroutine(ValidationAnswer(true));
+            if (_answerInput.text == answer)
+            {
+                StartCoroutine(ValidationAnswer(true));
+                return;
+            }
         }
-        else
-        {
-            StartCoroutine(ValidationAnswer(false));
-        }
+
+        StartCoroutine(ValidationAnswer(false));
     }
 
     private IEnumerator ValidationAnswer(bool answer)

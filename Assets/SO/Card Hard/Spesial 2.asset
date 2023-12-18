@@ -14,4 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: Sebuah persegi panjang memiliki panjang (3x+9) cm dan lebar (2x-4), tentukan
     keliling persegi panjang tersebut.
-  answer: 10x + 10
+  answers:
+  - 10x+10
+  - 10x + 10
+  - 10 x + 10
+  - 10+10x
+  - 10 + 10x
+  - 10 + 10 x

@@ -16,4 +16,10 @@ MonoBehaviour:
     dijual 2 ayam, 3 bebek dan 1 kambing, kemudian dia membeli lagi 2 kambing, 3
     ayam dan 5 bebek. Berapa jumlah ternak pak tani sekarang? (Dengan permisalan
     : kambing = x, ayam = y, dan bebek = z)'
-  answer: 6x + 11y + 9z
+  answers:
+  - 6x + 11y + 9z
+  - 6x +  9z + 11y
+  - '11y + 6x + 9z '
+  - '11y + 9z + 6x '
+  - '9z + 6x + 11y '
+  - '9z + 11y + 6x  '

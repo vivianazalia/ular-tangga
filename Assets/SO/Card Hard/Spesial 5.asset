@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e3e2f19bd4000245a7956463ea28b55, type: 3}
+  m_Name: Spesial 5
+  m_EditorClassIdentifier: 
+  question: 'Di lahan parkir terdapat 3 mobil, 5 sepeda motor dan 2 sepeda, kemudian
+    keluar 1 mobil 2 sepeda motor . Datang lagi 2 mobil 1 sepeda motor dan 1 sepeda.
+    Berapa jumlah kendaraan yang ada di lahan parkir tersebut ?  (Dengan permisalan
+    : mobil = m, sepeda motor = n, dan sepeda = o)'
+  answers:
+  - 4m + 4n + 2o
+  - 4m + 2o + 4n
+  - 4n + 4m + 2o
+  - 4n + 2o + 4m
+  - 2o + 4m + 4n
+  - 2o + 4n + 4m

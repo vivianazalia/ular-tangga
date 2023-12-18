@@ -13,4 +13,10 @@ MonoBehaviour:
   m_Name: Spesial 3
   m_EditorClassIdentifier: 
   question: Tentukan hasil pengurangan dari (5x+3)-(x-1)
-  answer: 4x + 4
+  answers:
+  - 4x+4
+  - 4x + 4
+  - 4 x + 4
+  - 4+4x
+  - 4 + 4x
+  - 4 + 4 x

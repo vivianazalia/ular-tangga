@@ -13,4 +13,10 @@ MonoBehaviour:
   m_Name: Spesial 2
   m_EditorClassIdentifier: 
   question: Tentukan hasil dari (8a-6b) + (5a - b)
-  answer: 13a - 7b
+  answers:
+  - 13a-7b
+  - 13a - 7b
+  - 13 a - 7 b
+  - -7b+13a
+  - '- 7b + 13a'
+  - '- 7 b + 13 a'

@@ -6,5 +6,5 @@ using UnityEngine;
 public class CardSO : ScriptableObject
 {
     public string question;
-    public string answer;
+    public string[] answers;
 }
